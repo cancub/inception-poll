@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 	int total_attempts = atoi(argv[3]);
 	int test_rand;
 	int no_repetition;
-	std::vector< std::vector<int> > backoff_slots;
+	std::vector<int> backoff_slots;
 	backoff_slots.reserve(total_STAs);
 
 	for (int i = 0; i < total_attempts; i++) {
